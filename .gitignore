@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.env.*
+*.env
+
+# FastAPI artifacts
+*.log
+*.db
+data/
+image_*.png
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store

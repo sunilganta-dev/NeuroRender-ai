@@ -1,0 +1,34 @@
+# Core AI & LLM Tools
+openai
+langchain
+faiss-cpu
+transformers
+diffusers
+accelerate
+#xformers
+
+# Deep Learning + GPU
+torch
+torchvision
+torchaudio
+GPUtil
+
+# Backend & Frontend
+fastapi
+uvicorn
+streamlit
+
+# Image Handling
+pillow
+
+# 📊 Logging/Env
+python-dotenv
+
+# Optional (for experimenting/logging)
+scipy
+matplotlib
+
+
+langchain-community
+langchain-core
+langchain-openai
