@@ -13,6 +13,14 @@ torchvision
 torchaudio
 GPUtil
 
+streamlit
+requests
+pillow
+numpy
+langchain
+openai
+torch
+
 # Backend & Frontend
 fastapi
 uvicorn

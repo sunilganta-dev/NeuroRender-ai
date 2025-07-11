@@ -11,7 +11,7 @@ load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Create LangChain chat model instance (use GPT-4 or GPT-3.5)
-llm = ChatOpenAI(model_name="gpt-4", temperature=0.7, openai_api_key=OPENAI_API_KEY)
+llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0.3)
 
 def refine_prompt(prompt: str) -> str:
     """

@@ -4,9 +4,11 @@ from agents.gpu_monitor import get_gpu_status
 from agents.model_selector import select_model
 from models.image_generator import generate_image
 from fastapi.staticfiles import StaticFiles
+from backend.api import router as api_router
 
 app = FastAPI()
 app.mount("/data", StaticFiles(directory="data"), name="data")
+app.include_router(api_router)
 
 @app.get("/")
 def root():
